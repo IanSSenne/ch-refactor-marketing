@@ -1,0 +1,7 @@
+## prettierrc
+
+```json
+{
+	"useTabs": true
+}
+```
