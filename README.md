@@ -25,6 +25,8 @@ The Objective of the repository is to improve the search engine optimization and
 - refactored html and css to use classes over ids for styling
 - added meaningful alt attributes to images
 - changed the h2 in the footer to an h4
+- change the title to be more relevent
+- add meta tags for description and viewport
 
 ## configurations
 
