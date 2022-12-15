@@ -1,5 +1,7 @@
 # horiseon marketing SEO
 
+Deployed on github pages, you can view it [here](https://ianssenne.github.io/ch-refactor-marketing/)
+
 ## Objective
 
 The Objective of the repository is to improve the search engine optimization and accessability of the homepage.
