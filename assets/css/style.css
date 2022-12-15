@@ -1,3 +1,10 @@
+/****************************************************\
+|  Global Styles                                     |
+|  This section of the css file contains everything  |
+|  that targets an element type broadly or is a      |
+|  utility class                                     |
+\****************************************************/
+
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -7,6 +14,26 @@
 body {
 	background-color: #d9dcd6;
 }
+
+p {
+	font-size: 16px;
+}
+
+.float-left {
+	float: left;
+	margin-right: 25px;
+}
+
+.float-right {
+	float: right;
+	margin-left: 25px;
+}
+
+/****************************************************\
+|  Header                                            |
+|  This section of the css file contains everything  |
+|  Related to the header, including the navigation   |
+\****************************************************/
 
 header {
 	padding: 20px;
@@ -47,9 +74,12 @@ a {
 	text-decoration: none;
 }
 
-p {
-	font-size: 16px;
-}
+/****************************************************\
+|  Hero                                              |
+|  The Large image across the top of the page,       |
+|  Full width and 800px tall, sits above the main    |
+|  Contents of the page                              |
+\****************************************************/
 
 .hero {
 	height: 800px;
@@ -60,21 +90,44 @@ p {
 	background-position: center;
 }
 
-.float-left {
-	float: left;
-	margin-right: 25px;
-}
-
-.float-right {
-	float: right;
-	margin-left: 25px;
-}
+/****************************************************\
+|  Main Contents                                     |
+|  The three large cards prominent on the left and   |
+|  middle of the page, cards use the utilty classes  |
+|  float-left and float-right to position the inner  |
+|  image. card images should be at most 200px tall.  |
+\****************************************************/
 
 #content {
 	width: 75%;
 	display: inline-block;
 	margin-left: 20px;
 }
+
+.info-card {
+	margin-bottom: 20px;
+	padding: 50px;
+	height: 300px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	background-color: #0072bb;
+	color: #ffffff;
+}
+
+.info-card img {
+	max-height: 200px;
+}
+
+.info-card h2 {
+	margin-bottom: 20px;
+	font-size: 36px;
+}
+
+/****************************************************\
+|  Sidebar Contents                                  |
+|  The Sidebar is a set of benifite cards where      |
+|  card has a title (h3) and an image along side a   |
+|  short description of the benifit.                 |
+\****************************************************/
 
 #benefits {
 	margin-right: 20px;
@@ -103,23 +156,11 @@ p {
 	max-width: 150px;
 }
 
-.info-card {
-	margin-bottom: 20px;
-	padding: 50px;
-	height: 300px;
-	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-	background-color: #0072bb;
-	color: #ffffff;
-}
-
-.info-card img {
-	max-height: 200px;
-}
-
-.info-card h2 {
-	margin-bottom: 20px;
-	font-size: 36px;
-}
+/****************************************************\
+|  Footer                                            |
+|  contains the copyright as well as a made with     |
+|  love message                                      |
+\****************************************************/
 
 footer {
 	padding: 30px;
@@ -129,6 +170,6 @@ footer {
 	text-align: center;
 }
 
-footer h2 {
+footer h4 {
 	font-size: 20px;
 }
