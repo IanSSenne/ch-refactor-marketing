@@ -10,7 +10,7 @@ The Objective of the repository is to improve the search engine optimization and
 | :------- | :------------------------------------------ |
 | css      | used for styling the page                   |
 | html     | used for defining the structure of the page |
-| prettier | use for formatting of files                 |
+| prettier | used for formatting of files                |
 
 ## The Final Version of the horiseon webpage
 
